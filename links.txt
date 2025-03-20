@@ -1,0 +1,26 @@
+Подборка моделей Checkpoints:
+
+SDXL - Juggernaut XL Lightning: https://civitai.com/models/133005?modelVersionId=357609
+SDXL - RealVisXL V4.0: https://civitai.com/models/139562?modelVersionId=344487
+SDXL - FenrisXL: https://civitai.com/models/122793?modelVersionId=247304
+SD1.5 - Juggernaut Reborn: https://civitai.com/models/46422/juggernaut
+SD1.5 - Lyriel: https://civitai.com/models/22922/lyriel
+Inpainting - Juggernaut Aftermath Inpainting: https://civitai.com/models/46422?modelVersionId=129549
+
+Подборка моделей:
+
+- Подборка стилевых моделей: LORA
+(поместить в models\loras)
+- Кодировщики изображений: VAE
+
+(поместить в models\vae)
+
+- Апскейлеры: ESRGAN
+
+(поместить в models\upscale_models)
+- Апскейлеры: DAT
+(esrgan и dat поместить в models\upscale_models)
+
+- Текстовые инверсии: embeddings
+
+(поместить в models\embeddings)
