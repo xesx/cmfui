@@ -24,3 +24,66 @@ Inpainting - Juggernaut Aftermath Inpainting: https://civitai.com/models/46422?m
 - Текстовые инверсии: embeddings
 
 (поместить в models\embeddings)
+
+
+Урок 5.4 Upscale с узлами из начального набора
+  СХЕМЫ И ИСХОДНИКИ
+    - СХЕМА - Upscale с узлами из начального набора.json
+
+Урок 5.5 Привязка подсказки к участкам изображения
+  1. Страница разработчика FreeU: https://github.com/ChenyangSi/FreeU
+  2. Модель GliGen: https://huggingface.co/comfyanonymous/GLIGEN_pruned_safetensors/tree/main
+
+  СХЕМЫ И ИСХОДНИКИ
+    - СХЕМА - Привязка подсказки к участкам изображения
+
+
+Урок 6.1 Outpain - наращивание изображения
+  ССЫЛКИ
+    Страница разработчика Image Resize: https://github.com/palant/image-resize-comfyui
+    Модели Fooocus Inpaint: https://huggingface.co/lllyasviel/fooocus_inpaint/tree/main
+    Страница разработчика нодов Fooocus: https://github.com/Acly/comfyui-inpaint-nodes
+    Модель Juggernaut Inpainting: https://civitai.com/models/46422?modelVersionId=129549
+    Модель Juggernaut XL Lightning: https://civitai.com/models/133005?modelVersionId=357609
+    Модель JuggerXL inpaint: https://civitai.com/models/245423/juggerxlinpaint
+
+  СХЕМЫ И ИСХОДНИКИ
+    Outpaint - Image Resize.json - ССЫЛКА
+    Outpaint Fooocus - 1.json - ССЫЛКА
+    node_templates.json - ССЫЛКА
+    Исходное изображение - ССЫЛКА
+
+
+
+Урок 6.2 Inpaint - изменение участков изображения
+  В этом уроке вы познакомитесь с Inpaint в ComfyUI.
+  INPAINT – это изменение участков изображения.
+  Выделяем область на изображении и перегенерируем её.
+
+  В этом видео мы разберем 2е схемы Inpaint.
+  - 1я схема работает с моделью SD1.5 Inpainting.
+  - 2я схема работает с любой моделью SDXL, но дополнительно к ней подключаются две модифицирующие модели Fooocus.
+
+  Первая схема с моделью SD1.5 Inpainting работает лучше и быстрее.
+
+  ССЫЛКИ
+    Модели Fooocus Inpaint: https://huggingface.co/lllyasviel/fooocus_inpaint/tree/main
+    Страница разработчика нодов Fooocus: https://github.com/Acly/comfyui-inpaint-nodes
+    Модель Juggernaut Inpainting: https://civitai.com/models/46422?modelVersionId=129549
+    Модель Juggernaut XL Lightning: https://civitai.com/models/133005?modelVersionId=357609
+
+  СХЕМЫ И ИЗОБРАЖЕНИЯ
+    Inpaint - SD15.json
+    Inpaint - Fooocus.json
+    node_templates.json
+
+
+
+
+
+
+
+
+
+
+
