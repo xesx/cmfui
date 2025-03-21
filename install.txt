@@ -1,0 +1,35 @@
+Аренда GPU
+  https://vast.ai/pricing
+  https://gpudc.ru
+
+https://www.hlsloader.com/ - скчивание видео
+
+hLPwinHH
+ssh user@85.143.167.10 -p 45411
+scp -P 45411 localfile user@85.143.167.10:/home/user/ComfyUI/models/checkpoints/
+ssh -L 8188:127.0.0.1:8188 -L 1111:127.0.0.1:1111 user@85.143.167.10 -p 47004
+
+----------
+ubuntu 22
+
+sudo apt update && sudo apt upgrade -y
+
+git clone https://github.com/comfyanonymous/ComfyUI.git
+
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
+
+pip install -r requirements.txt
+
+
+----error
+pip uninstall torch torchvision -y
+pip install torchvision==0.21.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+
+----error
+pip uninstall numpy scipy -y
+pip install numpy==1.26.4 scipy==1.10.1
+
+python main.py --listen
+
+
+
